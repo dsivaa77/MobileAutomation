@@ -14,5 +14,6 @@ public class LoginTest extends BaseTest {
         log.info("Login Test completed");
         log.info("Example test message");
         log.info("Example test message2");
+        log.info("Example test message3");
     }
 }
