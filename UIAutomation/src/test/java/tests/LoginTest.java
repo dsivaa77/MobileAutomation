@@ -12,5 +12,6 @@ public class LoginTest extends BaseTest {
         LoginPage login = new LoginPage(driver);
         login.login();
         log.info("Login Test completed");
+        log.info("Example test message");
     }
 }
