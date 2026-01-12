@@ -2,7 +2,6 @@ package Tests;
 
 import Config.SpringTestConfig;
 import Pages.HomePage;
-import Utils.AppiumServerManager;
 import Utils.ImageComparisonUtils;
 import Utils.ScreenshotUtils;
 import Utils.SwipeUtils;
@@ -224,8 +223,6 @@ public class HomeTest extends AbstractTestNGSpringContextTests {
             driver.quit();
             System.out.println("Driver quit at suite end.");
         }
-        // Stop Appium Server
-        AppiumServerManager.stopServer();
     }
 
 }

@@ -1,6 +1,5 @@
 package Config;
 
-import Utils.AppiumServerManager;
 import io.appium.java_client.android.AndroidDriver;
 import io.appium.java_client.android.options.UiAutomator2Options;
 import org.springframework.context.annotation.Bean;
@@ -15,9 +14,6 @@ public class MobileDriverConfig {
     @Bean
     @Lazy
     public AndroidDriver driver() throws Exception {
-
-        // 🔥 Start Appium Server BEFORE creating driver
-        AppiumServerManager.startServer();
 
         UiAutomator2Options options = new UiAutomator2Options();
 

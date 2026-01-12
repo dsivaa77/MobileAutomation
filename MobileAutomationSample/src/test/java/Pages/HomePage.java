@@ -178,7 +178,8 @@ public class HomePage {
     @Step("Relaunch YouTube App")
     public void relaunchApp() throws InterruptedException {
         if (driver != null) {
-            driver.startActivity(new Activity("com.google.android.youtube", "com.google.android.youtube.HomeActivity"));
+        //    driver.startActivity(new Activity("com.google.android.youtube", "com.google.android.youtube.HomeActivity"));
+            driver.activateApp("com.google.android.youtube");
             System.out.println("App launched successfully.");
         }
     }
