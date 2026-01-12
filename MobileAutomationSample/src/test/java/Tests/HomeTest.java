@@ -2,6 +2,7 @@ package Tests;
 
 import Config.SpringTestConfig;
 import Pages.HomePage;
+import Utils.AppiumServerManager;
 import Utils.ImageComparisonUtils;
 import Utils.ScreenshotUtils;
 import Utils.SwipeUtils;
@@ -16,18 +17,12 @@ import org.testng.Assert;
 import org.testng.ITestContext;
 import org.testng.annotations.AfterSuite;
 import org.testng.annotations.BeforeSuite;
-
-import java.io.BufferedReader;
 import java.io.IOException;
-
 import org.apache.commons.io.FileUtils;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
-
 import java.awt.image.BufferedImage;
 import java.io.File;
-import java.io.InputStreamReader;
-
 
 @SpringBootTest
 @ContextConfiguration(classes = SpringTestConfig.class)
@@ -229,6 +224,8 @@ public class HomeTest extends AbstractTestNGSpringContextTests {
             driver.quit();
             System.out.println("Driver quit at suite end.");
         }
+        // Stop Appium Server
+        AppiumServerManager.stopServer();
     }
 
 }
