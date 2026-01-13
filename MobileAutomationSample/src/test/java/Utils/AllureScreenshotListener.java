@@ -2,6 +2,8 @@ package Utils;
 
 import io.appium.java_client.android.AndroidDriver;
 import io.qameta.allure.Attachment;
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 import org.openqa.selenium.OutputType;
 import org.testng.ITestListener;
 import org.testng.ITestResult;
@@ -10,6 +12,7 @@ import java.io.File;
 
 public class AllureScreenshotListener implements ITestListener {
 
+    protected Logger logger = LogManager.getLogger(this.getClass());
     @Override
     public void onTestFailure(ITestResult result) {
         Object testClass = result.getInstance();
@@ -31,7 +34,7 @@ public class AllureScreenshotListener implements ITestListener {
                 return driver.getScreenshotAs(OutputType.BYTES);
             }
         } catch (Exception e) {
-            System.out.println("Screenshot skipped: " + e.getMessage());
+            logger.info("Screenshot skipped: " + e.getMessage());
         }
         return new byte[0];
     }

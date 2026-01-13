@@ -7,6 +7,8 @@ import Utils.ScreenshotUtils;
 import Utils.SwipeUtils;
 import io.appium.java_client.android.AndroidDriver;
 import io.qameta.allure.*;
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 import org.openqa.selenium.WebElement;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
@@ -26,6 +28,8 @@ import java.io.File;
 @SpringBootTest
 @ContextConfiguration(classes = SpringTestConfig.class)
 public class HomeTest extends AbstractTestNGSpringContextTests {
+
+    protected Logger logger = LogManager.getLogger(this.getClass());
 
     @Autowired
     private HomePage homePage;
@@ -50,16 +54,16 @@ public class HomeTest extends AbstractTestNGSpringContextTests {
     public void searchfunctionality() {
         homePage.clickSearch();
         screenshotUtils.captureScreenshot("searchiconclicked");
-        System.out.println("Search icon clicked successfully.");
+        logger.info("Search icon clicked successfully.");
         String cardetails = "grand vitara top model 2025 details";
         homePage.enterSearchText(cardetails);
         screenshotUtils.captureScreenshot("searchfunctionality");
-        System.out.println("Search text entered successfully.");
+        logger.info("Search text entered successfully.");
         homePage.scrollDown();
-        System.out.println("Scrolled down successfully.");
+        logger.info("Scrolled down successfully.");
         homePage.scrollMultipleTimes(5);
         screenshotUtils.captureScreenshot("scrolldownmultipletimes");
-        System.out.println("Scrolled down multiple times successfully.");
+        logger.info("Scrolled down multiple times successfully.");
     }
 
     @Epic("YouTube Tests")
@@ -70,20 +74,69 @@ public class HomeTest extends AbstractTestNGSpringContextTests {
     public void homepagefunctionality() throws Exception {
         homePage.goToHome();
         screenshotUtils.captureScreenshot("homepage");
-        BufferedImage baseline = imageComparisonUtils.loadBaselineScreenshot("src/test/resources/baseline/homepage.png");
-        File file = new File("src/test/resources/baseline/homepage.png");
-        System.out.println("Exists: " + file.exists());
-        System.out.println("Absolute path: " + file.getAbsolutePath());
-        // Step 3: Capture actual screenshot
-        BufferedImage actual = imageComparisonUtils.captureActualScreenshot();
-        // Step 4: Compare baseline vs actual
-        boolean match = imageComparisonUtils.compareImages(baseline, actual);
-        if (!match) {
-            imageComparisonUtils.saveAndAttachDiffImage(baseline, actual, "src/test/resources/diff/homepage_diff.png");
-            Assert.fail("Visual mismatch detected! See diff/homepage_diff.png");
-        } else {
-            System.out.println("Homepage matches baseline screenshot.");
+//        BufferedImage baseline = imageComparisonUtils.loadBaselineScreenshot("src/test/resources/baseline/homepage.png");
+//        File file = new File("src/test/resources/baseline/homepage.png");
+//        logger.info("Exists: " + file.exists());
+//        logger.info("Absolute path: " + file.getAbsolutePath());
+//        // Step 3: Capture actual screenshot
+//        BufferedImage actual = imageComparisonUtils.captureActualScreenshot();
+//        // Step 4: Compare baseline vs actual
+//        boolean match = imageComparisonUtils.compareImages(baseline, actual);
+//        if (!match) {
+//            imageComparisonUtils.saveAndAttachDiffImage(baseline, actual, "src/test/resources/diff/homepage_diff.png");
+//            Assert.fail("Visual mismatch detected! See diff/homepage_diff.png");
+//        } else {
+//            logger.info("Homepage matches baseline screenshot.");
+//        }
+        try {
+            // Step 1: Load baseline
+            File baselineFile = new File("src/test/resources/baseline/homepage.png");
+            logger.info("Baseline exists: {}", baselineFile.exists());
+            logger.info("Baseline absolute path: {}", baselineFile.getAbsolutePath());
+
+            if (!baselineFile.exists()) {
+                logger.error("Baseline image not found at path: {}", baselineFile.getAbsolutePath());
+                Assert.fail("Baseline image missing. Cannot perform visual comparison.");
+            }
+
+            BufferedImage baseline =
+                    imageComparisonUtils.loadBaselineScreenshot(baselineFile.getAbsolutePath());
+
+            // Step 2: Capture actual screenshot
+            logger.info("Capturing actual screenshot...");
+            BufferedImage actual = imageComparisonUtils.captureActualScreenshot();
+
+            if (actual == null) {
+                logger.error("Actual screenshot capture returned NULL");
+                Assert.fail("Actual screenshot is null. Capture failed.");
+            }
+
+            // Step 3: Compare images
+            logger.info("Comparing baseline vs actual screenshot...");
+            boolean match = imageComparisonUtils.compareImages(baseline, actual);
+
+            if (!match) {
+                String diffPath = "src/test/resources/diff/homepage_diff.png";
+
+                imageComparisonUtils.saveAndAttachDiffImage(
+                        baseline,
+                        actual,
+                        diffPath
+                );
+
+                logger.error("Visual mismatch detected. Diff saved at: {}", diffPath);
+                Assert.fail("Visual mismatch detected! See diff/homepage_diff.png");
+            } else {
+                logger.info("Homepage matches baseline screenshot.");
+            }
+
+        } catch (Exception e) {
+            //  Critical: log FULL stack trace
+            logger.error("Exception occurred during homepage visual validation", e);
+
+            Assert.fail("Exception occurred during visual comparison. Check automation.log for details.");
         }
+
     }
 
     @Epic("YouTube Tests")
@@ -141,7 +194,7 @@ public class HomeTest extends AbstractTestNGSpringContextTests {
         screenshotUtils.captureScreenshot("incognitomodeoff");
         String tmessage = homePage.toastMessage();
         screenshotUtils.captureScreenshot("toastmessage");
-        System.out.println("Toast message captured: " + tmessage);
+        logger.info("Toast message captured: " + tmessage);
     }
 
     @Epic("YouTube Tests")
@@ -166,7 +219,7 @@ public class HomeTest extends AbstractTestNGSpringContextTests {
             imageComparisonUtils.saveAndAttachDiffImage(baseline, actual, "diff/homepage_diff.png");
             Assert.fail("Visual mismatch detected! See attached baseline, actual, and diff screenshots in Allure.");
         } else {
-            System.out.println("Homepage matches baseline screenshot.");
+            logger.info("Homepage matches baseline screenshot.");
         }
     }
 
@@ -176,7 +229,7 @@ public class HomeTest extends AbstractTestNGSpringContextTests {
             throw new RuntimeException("AndroidDriver is NULL – Spring injection failed");
         }
         context.setAttribute("driver", driver);
-        System.out.println("Driver stored in TestNG context successfully");
+        logger.info("Driver stored in TestNG context successfully");
     }
 
     @BeforeSuite
@@ -187,33 +240,33 @@ public class HomeTest extends AbstractTestNGSpringContextTests {
 
         if (diffDir.exists()) {
             FileUtils.cleanDirectory(diffDir);
-            System.out.println("Diff directory cleaned.");
+            logger.info("Diff directory cleaned.");
         } else {
             diffDir.mkdirs();
-            System.out.println("Diff directory created.");
+            logger.info("Diff directory created.");
         }
 
         if (!baselineDir.exists()) {
             baselineDir.mkdirs();
-            System.out.println("Baseline directory created.");
+            logger.info("Baseline directory created.");
         }
         // Clean Allure results directory
         File resultsDir = new File("target/allure-results");
         if (resultsDir.exists()) {
             FileUtils.deleteDirectory(resultsDir);
-            System.out.println("Deleted old allure-results folder.");
+            logger.info("Deleted old allure-results folder.");
         }
         // Clean Allure report (if generated previously)
         File reportDir = new File("target/allure-report");
         if (reportDir.exists()) {
             FileUtils.deleteDirectory(reportDir);
-            System.out.println("Deleted old allure-report folder.");
+            logger.info("Deleted old allure-report folder.");
         }
         // Clean screenshots folder
         File screenshotsDir = new File("target/screenshots");
         if (screenshotsDir.exists()) {
             FileUtils.cleanDirectory(screenshotsDir);
-            System.out.println("Cleaned screenshots folder.");
+            logger.info("Cleaned screenshots folder.");
         }
     }
 
@@ -221,7 +274,7 @@ public class HomeTest extends AbstractTestNGSpringContextTests {
     public void tearDown() throws InterruptedException {
         if (driver != null && driver.getSessionId() != null) {
             driver.quit();
-            System.out.println("Driver quit at suite end.");
+            logger.info("Driver quit at suite end.");
         }
     }
 
