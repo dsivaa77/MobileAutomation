@@ -7,6 +7,8 @@ import io.appium.java_client.android.AndroidDriver;
 import io.appium.java_client.pagefactory.AndroidFindBy;
 import io.appium.java_client.pagefactory.AppiumFieldDecorator;
 import io.qameta.allure.Step;
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.PageFactory;
 import org.springframework.context.annotation.Lazy;
@@ -21,6 +23,7 @@ public class HomePage {
     private final AndroidDriver driver;
     private WaitUtils waitUtils;
 
+    protected Logger logger = LogManager.getLogger(this.getClass());
     @AndroidFindBy(accessibility = "Search")
     private WebElement searchIcon;
 
@@ -60,7 +63,7 @@ public class HomePage {
             waitUtils.waitForClickable(searchIcon);
             searchIcon.click();
         }
-        System.out.println("Search icon clicked.");
+        logger.info("Search icon clicked.");
     }
 
     @Step("Enter Search Text: {text}")
@@ -70,9 +73,9 @@ public class HomePage {
             searchTextBox.sendKeys(text);
             searchTextBox.clear();
             searchTextBox.sendKeys(text);
-            System.out.println("Search text entered: " + text);
+            logger.info("Search text entered: " + text);
             driver.executeScript("mobile: performEditorAction", ImmutableMap.of("action", "search"));
-            System.out.println("Search executed");
+            logger.info("Search executed");
         }
     }
 
@@ -88,7 +91,7 @@ public class HomePage {
             params.put("percent", 0.75);
             driver.executeScript("mobile: scrollGesture", params);
         } catch (Exception e) {
-            System.out.println("scrollDown fallback: " + e.getMessage());
+            logger.info("scrollDown fallback: " + e.getMessage());
             try {
                 Map<String, Object> swipe = new HashMap<>();
                 swipe.put("startX", 540);
@@ -98,7 +101,7 @@ public class HomePage {
                 swipe.put("duration", 800);
                 driver.executeScript("mobile: swipeGesture", swipe);
             } catch (Exception ex) {
-                System.out.println("swipe fallback failed: " + ex.getMessage());
+                logger.info("swipe fallback failed: " + ex.getMessage());
             }
         }
     }
@@ -119,7 +122,7 @@ public class HomePage {
         if (homeButton != null) {
             waitUtils.waitForClickable(homeButton);
             homeButton.click();
-            System.out.println("Navigated to Home.");
+           logger.info("Navigated to Home.");
         }
     }
 
@@ -128,7 +131,7 @@ public class HomePage {
         if (shortsButton != null) {
             waitUtils.waitForClickable(shortsButton);
             shortsButton.click();
-            System.out.println("Navigated to Shorts.");
+            logger.info("Navigated to Shorts.");
         }
     }
 
@@ -137,7 +140,7 @@ public class HomePage {
         if (subscriptionsButton != null) {
             waitUtils.waitForClickable(subscriptionsButton);
             subscriptionsButton.click();
-            System.out.println("Navigated to Subscriptions.");
+            logger.info("Navigated to Subscriptions.");
         }
     }
 
@@ -146,7 +149,7 @@ public class HomePage {
         if (profileButton != null) {
             waitUtils.waitForClickable(profileButton);
             profileButton.click();
-            System.out.println("Navigated to Profile.");
+            logger.info("Navigated to Profile.");
         }
     }
 
@@ -170,7 +173,7 @@ public class HomePage {
     public void closeApp() throws InterruptedException {
         if (driver != null) {
             driver.terminateApp("com.google.android.youtube");
-            System.out.println("App closed successfully.");
+            logger.info("App closed successfully.");
             Thread.sleep(4000); // wait for 4 seconds
         }
     }
@@ -178,9 +181,9 @@ public class HomePage {
     @Step("Relaunch YouTube App")
     public void relaunchApp() throws InterruptedException {
         if (driver != null) {
-        //    driver.startActivity(new Activity("com.google.android.youtube", "com.google.android.youtube.HomeActivity"));
-            driver.activateApp("com.google.android.youtube");
-            System.out.println("App launched successfully.");
+            driver.startActivity(new Activity("com.google.android.youtube", "com.google.android.youtube.HomeActivity"));
+          //  driver.activateApp("com.google.android.youtube");
+            logger.info("App launched successfully.");
         }
     }
 

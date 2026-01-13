@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Configuration status="WARN">
+
+    <Appenders>
+
+        <Console name="Console" target="SYSTEM_OUT">
+            <PatternLayout
+                    pattern="%d{HH:mm:ss} %-5level %c{1} - %msg%n%throwable"/>
+        </Console>
+
+        <RollingFile name="FileLogger"
+                     fileName="logs/automation.log"
+                     filePattern="logs/automation-%d{yyyy-MM-dd}-%i.log.gz">
+            <PatternLayout
+                    pattern="%d{yyyy-MM-dd HH:mm:ss} %-5level %c - %msg%n%throwable"/>
+
+            <Policies>
+                <SizeBasedTriggeringPolicy size="2MB"/>
+            </Policies>
+
+            <DefaultRolloverStrategy max="10"/>
+        </RollingFile>
+
+    </Appenders>
+
+    <Loggers>
+
+        <!-- Reduce Selenium noise -->
+        <Logger name="org.openqa.selenium" level="WARN"/>
+
+        <!-- Reduce Appium noise -->
+        <Logger name="io.appium" level="WARN"/>
+
+        <Root level="INFO">
+            <AppenderRef ref="Console"/>
+            <AppenderRef ref="FileLogger"/>
+        </Root>
+
+    </Loggers>
+
+</Configuration>

@@ -1,0 +1,537 @@
+2026-01-13 05:20:48 INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 12 ms.
+2026-01-13 05:20:48 INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 16 ms.
+2026-01-13 05:20:48 INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2026-01-13 05:20:48 INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2026-01-13 05:20:48 INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2026-01-13 05:20:48 INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2026-01-13 05:20:48 INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2026-01-13 05:20:48 INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2026-01-13 05:20:48 INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2026-01-13 05:20:48 INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 13 ms.
+2026-01-13 05:20:48 INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2026-01-13 05:20:48 INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2026-01-13 05:20:48 INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2026-01-13 05:20:48 INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2026-01-13 05:20:48 INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2026-01-13 05:20:48 INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2026-01-13 05:20:48 INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2026-01-13 05:20:48 INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2026-01-13 05:20:48 INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2026-01-13 05:20:48 INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2026-01-13 05:20:48 INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2026-01-13 05:20:48 INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 1 ms.
+2026-01-13 05:20:48 INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2026-01-13 05:20:48 INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2026-01-13 05:20:48 INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 2 ms.
+2026-01-13 05:20:48 INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 2 ms.
+2026-01-13 05:20:48 INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2026-01-13 05:20:48 INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2026-01-13 05:20:48 INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2026-01-13 05:20:48 INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2026-01-13 05:20:48 INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\sdodda\IdeaProjects\MobileAutomationSample\testng.xml
+
+2026-01-13 05:20:49 INFO  Tests.HomeTest - Diff directory cleaned.
+2026-01-13 05:20:49 INFO  Tests.HomeTest - Deleted old allure-results folder.
+2026-01-13 05:20:49 INFO  Tests.HomeTest - Cleaned screenshots folder.
+2026-01-13 05:20:49 INFO  org.testng.internal.Utils - [Utils] DynamicGraphHelper.createDynamicGraph() took 5 ms.
+2026-01-13 05:20:49 INFO  Tests.HomeTest - Starting HomeTest using Java 21.0.4 with PID 18896 (C:\Users\sdodda\IdeaProjects\MobileAutomationSample\target\test-classes started by sdodda in C:\Users\sdodda\IdeaProjects\MobileAutomationSample)
+2026-01-13 05:20:49 INFO  Tests.HomeTest - No active profile set, falling back to 1 default profile: "default"
+2026-01-13 05:21:00 INFO  Tests.HomeTest - Started HomeTest in 11.224 seconds (process running for 15.474)
+2026-01-13 05:21:00 INFO  Tests.HomeTest - Driver stored in TestNG context successfully
+2026-01-13 05:21:03 INFO  Pages.HomePage - Search icon clicked.
+2026-01-13 05:21:05 INFO  Tests.HomeTest - Search icon clicked successfully.
+2026-01-13 05:21:09 INFO  Pages.HomePage - Search text entered: grand vitara top model 2025 details
+2026-01-13 05:21:10 INFO  Pages.HomePage - Search executed
+2026-01-13 05:21:11 INFO  Tests.HomeTest - Search text entered successfully.
+2026-01-13 05:21:12 INFO  Tests.HomeTest - Scrolled down successfully.
+2026-01-13 05:21:23 INFO  Tests.HomeTest - Scrolled down multiple times successfully.
+2026-01-13 05:21:29 INFO  Pages.HomePage - Navigated to Home.
+2026-01-13 05:21:30 INFO  Tests.HomeTest - Exists: true
+2026-01-13 05:21:30 INFO  Tests.HomeTest - Absolute path: C:\Users\sdodda\IdeaProjects\MobileAutomationSample\src\test\resources\baseline\homepage.png
+2026-01-13 05:21:39 INFO  Pages.HomePage - Navigated to Shorts.
+2026-01-13 05:21:45 INFO  Pages.HomePage - Navigated to Subscriptions.
+2026-01-13 05:22:11 INFO  Pages.HomePage - Navigated to Profile.
+2026-01-13 05:22:18 INFO  Pages.HomePage - Navigated to Profile.
+2026-01-13 05:22:23 INFO  Tests.HomeTest - Toast message captured: Signed in as 
+Local guide Hyderabad (dsivaa95@gmail.com)
+2026-01-13 05:22:28 INFO  Pages.HomePage - App closed successfully.
+2026-01-13 05:22:34 INFO  Pages.HomePage - App launched successfully.
+2026-01-13 05:22:35 INFO  org.testng.internal.Utils - [TestNG] Time taken by org.testng.internal.ExitCodeListener@da1382f: 0 ms
+2026-01-13 05:30:46 INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 9 ms.
+2026-01-13 05:30:46 INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 12 ms.
+2026-01-13 05:30:46 INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2026-01-13 05:30:46 INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 1 ms.
+2026-01-13 05:30:46 INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2026-01-13 05:30:46 INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2026-01-13 05:30:46 INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2026-01-13 05:30:46 INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2026-01-13 05:30:46 INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2026-01-13 05:30:46 INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 7 ms.
+2026-01-13 05:30:46 INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2026-01-13 05:30:46 INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2026-01-13 05:30:46 INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2026-01-13 05:30:46 INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2026-01-13 05:30:46 INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2026-01-13 05:30:46 INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2026-01-13 05:30:46 INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2026-01-13 05:30:46 INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2026-01-13 05:30:46 INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2026-01-13 05:30:46 INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2026-01-13 05:30:46 INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2026-01-13 05:30:46 INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2026-01-13 05:30:46 INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 1 ms.
+2026-01-13 05:30:46 INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2026-01-13 05:30:46 INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 2 ms.
+2026-01-13 05:30:46 INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 1 ms.
+2026-01-13 05:30:46 INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2026-01-13 05:30:46 INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2026-01-13 05:30:46 INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2026-01-13 05:30:46 INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2026-01-13 05:30:46 INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\sdodda\IdeaProjects\MobileAutomationSample\testng.xml
+
+2026-01-13 05:30:46 INFO  Tests.HomeTest - Diff directory cleaned.
+2026-01-13 05:30:46 INFO  Tests.HomeTest - Deleted old allure-results folder.
+2026-01-13 05:30:46 INFO  Tests.HomeTest - Cleaned screenshots folder.
+2026-01-13 05:30:46 INFO  org.testng.internal.Utils - [Utils] DynamicGraphHelper.createDynamicGraph() took 10 ms.
+2026-01-13 05:30:47 INFO  Tests.HomeTest - Starting HomeTest using Java 21.0.4 with PID 2032 (C:\Users\sdodda\IdeaProjects\MobileAutomationSample\target\test-classes started by sdodda in C:\Users\sdodda\IdeaProjects\MobileAutomationSample)
+2026-01-13 05:30:47 INFO  Tests.HomeTest - No active profile set, falling back to 1 default profile: "default"
+2026-01-13 05:31:01 INFO  Tests.HomeTest - Started HomeTest in 14.525 seconds (process running for 19.032)
+2026-01-13 05:31:01 INFO  Tests.HomeTest - Driver stored in TestNG context successfully
+2026-01-13 05:31:04 INFO  Pages.HomePage - Search icon clicked.
+2026-01-13 05:31:05 INFO  Tests.HomeTest - Search icon clicked successfully.
+2026-01-13 05:31:08 INFO  Pages.HomePage - Search text entered: grand vitara top model 2025 details
+2026-01-13 05:31:10 INFO  Pages.HomePage - Search executed
+2026-01-13 05:31:11 INFO  Tests.HomeTest - Search text entered successfully.
+2026-01-13 05:31:11 INFO  Tests.HomeTest - Scrolled down successfully.
+2026-01-13 05:31:22 INFO  Tests.HomeTest - Scrolled down multiple times successfully.
+2026-01-13 05:31:29 INFO  Pages.HomePage - Navigated to Home.
+2026-01-13 05:31:30 INFO  Tests.HomeTest - Exists: true
+2026-01-13 05:31:30 INFO  Tests.HomeTest - Absolute path: C:\Users\sdodda\IdeaProjects\MobileAutomationSample\src\test\resources\baseline\homepage.png
+2026-01-13 05:31:38 INFO  Pages.HomePage - Navigated to Shorts.
+2026-01-13 05:31:44 INFO  Pages.HomePage - Navigated to Subscriptions.
+2026-01-13 05:32:08 INFO  Pages.HomePage - Navigated to Profile.
+2026-01-13 05:32:16 INFO  Pages.HomePage - Navigated to Profile.
+2026-01-13 05:32:20 INFO  Tests.HomeTest - Toast message captured: Signed in as 
+Local guide Hyderabad (dsivaa95@gmail.com)
+2026-01-13 05:32:25 INFO  Pages.HomePage - App closed successfully.
+2026-01-13 05:32:31 INFO  Pages.HomePage - App launched successfully.
+2026-01-13 05:32:32 INFO  org.testng.internal.Utils - [TestNG] Time taken by org.testng.internal.ExitCodeListener@7ef7f6d5: 0 ms
+2026-01-13 05:34:35 INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 25 ms.
+2026-01-13 05:34:35 INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 20 ms.
+2026-01-13 05:34:35 INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2026-01-13 05:34:35 INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2026-01-13 05:34:35 INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2026-01-13 05:34:35 INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2026-01-13 05:34:35 INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2026-01-13 05:34:35 INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2026-01-13 05:34:35 INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2026-01-13 05:34:35 INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 12 ms.
+2026-01-13 05:34:35 INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2026-01-13 05:34:35 INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2026-01-13 05:34:35 INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2026-01-13 05:34:35 INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2026-01-13 05:34:35 INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2026-01-13 05:34:35 INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2026-01-13 05:34:35 INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2026-01-13 05:34:35 INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2026-01-13 05:34:35 INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2026-01-13 05:34:35 INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 1 ms.
+2026-01-13 05:34:35 INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2026-01-13 05:34:35 INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2026-01-13 05:34:35 INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2026-01-13 05:34:35 INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2026-01-13 05:34:35 INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 2 ms.
+2026-01-13 05:34:35 INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 4 ms.
+2026-01-13 05:34:36 INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2026-01-13 05:34:36 INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2026-01-13 05:34:36 INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2026-01-13 05:34:36 INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 1 ms.
+2026-01-13 05:34:36 INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\sdodda\IdeaProjects\MobileAutomationSample\testng.xml
+
+2026-01-13 05:34:36 INFO  Tests.HomeTest - Diff directory cleaned.
+2026-01-13 05:34:36 INFO  Tests.HomeTest - Deleted old allure-results folder.
+2026-01-13 05:34:36 INFO  Tests.HomeTest - Cleaned screenshots folder.
+2026-01-13 05:34:36 INFO  org.testng.internal.Utils - [Utils] DynamicGraphHelper.createDynamicGraph() took 8 ms.
+2026-01-13 05:34:36 INFO  Tests.HomeTest - Starting HomeTest using Java 21.0.4 with PID 14108 (C:\Users\sdodda\IdeaProjects\MobileAutomationSample\target\test-classes started by sdodda in C:\Users\sdodda\IdeaProjects\MobileAutomationSample)
+2026-01-13 05:34:36 INFO  Tests.HomeTest - No active profile set, falling back to 1 default profile: "default"
+2026-01-13 05:34:51 INFO  Tests.HomeTest - Started HomeTest in 15.002 seconds (process running for 20.245)
+2026-01-13 05:34:51 INFO  Tests.HomeTest - Driver stored in TestNG context successfully
+2026-01-13 05:34:53 INFO  Pages.HomePage - Search icon clicked.
+2026-01-13 05:34:55 INFO  Tests.HomeTest - Search icon clicked successfully.
+2026-01-13 05:34:58 INFO  Pages.HomePage - Search text entered: grand vitara top model 2025 details
+2026-01-13 05:35:00 INFO  Pages.HomePage - Search executed
+2026-01-13 05:35:01 INFO  Tests.HomeTest - Search text entered successfully.
+2026-01-13 05:35:01 INFO  Tests.HomeTest - Scrolled down successfully.
+2026-01-13 05:35:13 INFO  Tests.HomeTest - Scrolled down multiple times successfully.
+2026-01-13 05:35:19 INFO  Pages.HomePage - Navigated to Home.
+2026-01-13 05:35:20 INFO  Tests.HomeTest - Exists: true
+2026-01-13 05:35:20 INFO  Tests.HomeTest - Absolute path: C:\Users\sdodda\IdeaProjects\MobileAutomationSample\src\test\resources\baseline\homepage.png
+2026-01-13 05:35:27 INFO  Pages.HomePage - Navigated to Shorts.
+2026-01-13 05:35:34 INFO  Pages.HomePage - Navigated to Subscriptions.
+2026-01-13 05:35:59 INFO  Pages.HomePage - Navigated to Profile.
+2026-01-13 05:36:06 INFO  Pages.HomePage - Navigated to Profile.
+2026-01-13 05:36:10 INFO  Tests.HomeTest - Toast message captured: Signed in as 
+Local guide Hyderabad (dsivaa95@gmail.com)
+2026-01-13 05:36:15 INFO  Pages.HomePage - App closed successfully.
+2026-01-13 05:36:21 INFO  Pages.HomePage - App launched successfully.
+2026-01-13 05:36:22 INFO  org.testng.internal.Utils - [TestNG] Time taken by org.testng.internal.ExitCodeListener@70886b0e: 0 ms
+2026-01-13 05:38:06 INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 13 ms.
+2026-01-13 05:38:06 INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 14 ms.
+2026-01-13 05:38:06 INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 1 ms.
+2026-01-13 05:38:06 INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2026-01-13 05:38:06 INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2026-01-13 05:38:06 INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2026-01-13 05:38:06 INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2026-01-13 05:38:06 INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2026-01-13 05:38:06 INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2026-01-13 05:38:06 INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 10 ms.
+2026-01-13 05:38:06 INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2026-01-13 05:38:06 INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2026-01-13 05:38:06 INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2026-01-13 05:38:06 INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2026-01-13 05:38:06 INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2026-01-13 05:38:06 INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2026-01-13 05:38:06 INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2026-01-13 05:38:06 INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2026-01-13 05:38:06 INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2026-01-13 05:38:06 INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2026-01-13 05:38:06 INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2026-01-13 05:38:06 INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2026-01-13 05:38:06 INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2026-01-13 05:38:06 INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2026-01-13 05:38:06 INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 6 ms.
+2026-01-13 05:38:06 INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 1 ms.
+2026-01-13 05:38:06 INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2026-01-13 05:38:06 INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2026-01-13 05:38:06 INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2026-01-13 05:38:06 INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2026-01-13 05:38:06 INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\sdodda\IdeaProjects\MobileAutomationSample\testng.xml
+
+2026-01-13 05:38:06 INFO  Tests.HomeTest - Diff directory cleaned.
+2026-01-13 05:38:06 INFO  Tests.HomeTest - Deleted old allure-results folder.
+2026-01-13 05:38:06 INFO  Tests.HomeTest - Cleaned screenshots folder.
+2026-01-13 05:38:06 INFO  org.testng.internal.Utils - [Utils] DynamicGraphHelper.createDynamicGraph() took 9 ms.
+2026-01-13 05:38:07 INFO  Tests.HomeTest - Starting HomeTest using Java 21.0.4 with PID 12368 (C:\Users\sdodda\IdeaProjects\MobileAutomationSample\target\test-classes started by sdodda in C:\Users\sdodda\IdeaProjects\MobileAutomationSample)
+2026-01-13 05:38:07 INFO  Tests.HomeTest - No active profile set, falling back to 1 default profile: "default"
+2026-01-13 05:38:18 INFO  Tests.HomeTest - Started HomeTest in 11.523 seconds (process running for 16.236)
+2026-01-13 05:38:18 INFO  Tests.HomeTest - Driver stored in TestNG context successfully
+2026-01-13 05:38:21 INFO  Pages.HomePage - Navigated to Profile.
+2026-01-13 05:38:30 INFO  Pages.HomePage - Navigated to Profile.
+2026-01-13 05:38:34 INFO  Tests.HomeTest - Toast message captured: Signed in as 
+Local guide Hyderabad (dsivaa95@gmail.com)
+2026-01-13 05:38:39 INFO  Pages.HomePage - App closed successfully.
+2026-01-13 05:38:45 INFO  Pages.HomePage - App launched successfully.
+2026-01-13 05:38:46 INFO  org.testng.internal.Utils - [TestNG] Time taken by org.testng.internal.ExitCodeListener@2f940a24: 0 ms
+2026-01-13 05:40:47 INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 13 ms.
+2026-01-13 05:40:47 INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 13 ms.
+2026-01-13 05:40:47 INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2026-01-13 05:40:47 INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2026-01-13 05:40:47 INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2026-01-13 05:40:47 INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2026-01-13 05:40:47 INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2026-01-13 05:40:47 INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2026-01-13 05:40:47 INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2026-01-13 05:40:47 INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 7 ms.
+2026-01-13 05:40:47 INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2026-01-13 05:40:47 INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2026-01-13 05:40:47 INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2026-01-13 05:40:47 INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2026-01-13 05:40:47 INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2026-01-13 05:40:47 INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2026-01-13 05:40:47 INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2026-01-13 05:40:47 INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2026-01-13 05:40:47 INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2026-01-13 05:40:47 INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2026-01-13 05:40:47 INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 1 ms.
+2026-01-13 05:40:47 INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2026-01-13 05:40:47 INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2026-01-13 05:40:47 INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2026-01-13 05:40:47 INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 2 ms.
+2026-01-13 05:40:47 INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 2 ms.
+2026-01-13 05:40:47 INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2026-01-13 05:40:47 INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2026-01-13 05:40:47 INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2026-01-13 05:40:47 INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2026-01-13 05:40:47 INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\sdodda\IdeaProjects\MobileAutomationSample\testng.xml
+
+2026-01-13 05:40:47 INFO  Tests.HomeTest - Diff directory cleaned.
+2026-01-13 05:40:47 INFO  Tests.HomeTest - Deleted old allure-results folder.
+2026-01-13 05:40:47 INFO  Tests.HomeTest - Cleaned screenshots folder.
+2026-01-13 05:40:47 INFO  org.testng.internal.Utils - [Utils] DynamicGraphHelper.createDynamicGraph() took 13 ms.
+2026-01-13 05:40:48 INFO  Tests.HomeTest - Starting HomeTest using Java 21.0.4 with PID 11464 (C:\Users\sdodda\IdeaProjects\MobileAutomationSample\target\test-classes started by sdodda in C:\Users\sdodda\IdeaProjects\MobileAutomationSample)
+2026-01-13 05:40:48 INFO  Tests.HomeTest - No active profile set, falling back to 1 default profile: "default"
+2026-01-13 05:41:00 INFO  Tests.HomeTest - Started HomeTest in 12.751 seconds (process running for 17.049)
+2026-01-13 05:41:00 INFO  Tests.HomeTest - Driver stored in TestNG context successfully
+2026-01-13 05:41:03 INFO  Pages.HomePage - Search icon clicked.
+2026-01-13 05:41:05 INFO  Tests.HomeTest - Search icon clicked successfully.
+2026-01-13 05:41:08 INFO  Pages.HomePage - Search text entered: grand vitara top model 2025 details
+2026-01-13 05:41:10 INFO  Pages.HomePage - Search executed
+2026-01-13 05:41:10 INFO  Tests.HomeTest - Search text entered successfully.
+2026-01-13 05:41:12 INFO  Tests.HomeTest - Scrolled down successfully.
+2026-01-13 05:41:24 INFO  Tests.HomeTest - Scrolled down multiple times successfully.
+2026-01-13 05:41:30 INFO  Pages.HomePage - Navigated to Home.
+2026-01-13 05:41:31 INFO  Tests.HomeTest - Exists: true
+2026-01-13 05:41:31 INFO  Tests.HomeTest - Absolute path: C:\Users\sdodda\IdeaProjects\MobileAutomationSample\src\test\resources\baseline\homepage.png
+2026-01-13 05:41:39 INFO  Pages.HomePage - Navigated to Shorts.
+2026-01-13 05:41:46 INFO  Pages.HomePage - Navigated to Subscriptions.
+2026-01-13 05:42:11 INFO  Pages.HomePage - Navigated to Profile.
+2026-01-13 05:42:19 INFO  Pages.HomePage - Navigated to Profile.
+2026-01-13 05:42:23 INFO  Tests.HomeTest - Toast message captured: Signed in as 
+Local guide Hyderabad (dsivaa95@gmail.com)
+2026-01-13 05:42:29 INFO  Pages.HomePage - App closed successfully.
+2026-01-13 05:42:35 INFO  Pages.HomePage - App launched successfully.
+2026-01-13 05:42:37 INFO  org.testng.internal.Utils - [TestNG] Time taken by org.testng.internal.ExitCodeListener@2ac4079f: 0 ms
+2026-01-13 05:50:00 INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 15 ms.
+2026-01-13 05:50:00 INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 17 ms.
+2026-01-13 05:50:00 INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2026-01-13 05:50:00 INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2026-01-13 05:50:00 INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2026-01-13 05:50:00 INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2026-01-13 05:50:00 INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2026-01-13 05:50:00 INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2026-01-13 05:50:00 INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2026-01-13 05:50:00 INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 9 ms.
+2026-01-13 05:50:00 INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2026-01-13 05:50:00 INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 1 ms.
+2026-01-13 05:50:00 INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2026-01-13 05:50:00 INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2026-01-13 05:50:00 INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2026-01-13 05:50:00 INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2026-01-13 05:50:00 INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2026-01-13 05:50:00 INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2026-01-13 05:50:00 INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2026-01-13 05:50:00 INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 1 ms.
+2026-01-13 05:50:00 INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2026-01-13 05:50:00 INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2026-01-13 05:50:00 INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2026-01-13 05:50:00 INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2026-01-13 05:50:00 INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 3 ms.
+2026-01-13 05:50:00 INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 1 ms.
+2026-01-13 05:50:00 INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2026-01-13 05:50:00 INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2026-01-13 05:50:00 INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2026-01-13 05:50:00 INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 1 ms.
+2026-01-13 05:50:00 INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\sdodda\IdeaProjects\MobileAutomationSample\testng.xml
+
+2026-01-13 05:50:00 INFO  Tests.HomeTest - Diff directory cleaned.
+2026-01-13 05:50:00 INFO  Tests.HomeTest - Deleted old allure-results folder.
+2026-01-13 05:50:00 INFO  Tests.HomeTest - Cleaned screenshots folder.
+2026-01-13 05:50:00 INFO  org.testng.internal.Utils - [Utils] DynamicGraphHelper.createDynamicGraph() took 12 ms.
+2026-01-13 05:50:01 INFO  Tests.HomeTest - Starting HomeTest using Java 21.0.4 with PID 17984 (C:\Users\sdodda\IdeaProjects\MobileAutomationSample\target\test-classes started by sdodda in C:\Users\sdodda\IdeaProjects\MobileAutomationSample)
+2026-01-13 05:50:01 INFO  Tests.HomeTest - No active profile set, falling back to 1 default profile: "default"
+2026-01-13 05:50:16 INFO  Tests.HomeTest - Started HomeTest in 15.572 seconds (process running for 20.663)
+2026-01-13 05:50:16 INFO  Tests.HomeTest - Driver stored in TestNG context successfully
+2026-01-13 05:50:18 INFO  Pages.HomePage - Search icon clicked.
+2026-01-13 05:50:20 INFO  Tests.HomeTest - Search icon clicked successfully.
+2026-01-13 05:50:23 INFO  Pages.HomePage - Search text entered: grand vitara top model 2025 details
+2026-01-13 05:50:25 INFO  Pages.HomePage - Search executed
+2026-01-13 05:50:25 INFO  Tests.HomeTest - Search text entered successfully.
+2026-01-13 05:50:26 INFO  Tests.HomeTest - Scrolled down successfully.
+2026-01-13 05:50:38 INFO  Tests.HomeTest - Scrolled down multiple times successfully.
+2026-01-13 05:50:44 INFO  Pages.HomePage - Navigated to Home.
+2026-01-13 05:50:45 INFO  Tests.HomeTest - Exists: true
+2026-01-13 05:50:45 INFO  Tests.HomeTest - Absolute path: C:\Users\sdodda\IdeaProjects\MobileAutomationSample\src\test\resources\baseline\homepage.png
+2026-01-13 05:50:53 INFO  Pages.HomePage - Navigated to Shorts.
+2026-01-13 05:51:00 INFO  Pages.HomePage - Navigated to Subscriptions.
+2026-01-13 05:51:25 INFO  Pages.HomePage - Navigated to Profile.
+2026-01-13 05:51:32 INFO  Pages.HomePage - Navigated to Profile.
+2026-01-13 05:51:36 INFO  Tests.HomeTest - Toast message captured: Signed in as 
+Local guide Hyderabad (dsivaa95@gmail.com)
+2026-01-13 05:51:41 INFO  Pages.HomePage - App closed successfully.
+2026-01-13 05:51:47 INFO  Pages.HomePage - App launched successfully.
+2026-01-13 05:51:48 INFO  org.testng.internal.Utils - [TestNG] Time taken by org.testng.internal.ExitCodeListener@5ef1fe1b: 1 ms
+2026-01-13 05:58:54 INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 7 ms.
+2026-01-13 05:58:54 INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 11 ms.
+2026-01-13 05:58:54 INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2026-01-13 05:58:54 INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2026-01-13 05:58:54 INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2026-01-13 05:58:54 INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2026-01-13 05:58:54 INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2026-01-13 05:58:54 INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2026-01-13 05:58:54 INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2026-01-13 05:58:54 INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 11 ms.
+2026-01-13 05:58:54 INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2026-01-13 05:58:54 INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2026-01-13 05:58:54 INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2026-01-13 05:58:54 INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2026-01-13 05:58:54 INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2026-01-13 05:58:54 INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2026-01-13 05:58:54 INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2026-01-13 05:58:54 INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2026-01-13 05:58:54 INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2026-01-13 05:58:54 INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2026-01-13 05:58:54 INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2026-01-13 05:58:54 INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2026-01-13 05:58:54 INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2026-01-13 05:58:54 INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2026-01-13 05:58:54 INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 3 ms.
+2026-01-13 05:58:54 INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 2 ms.
+2026-01-13 05:58:54 INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2026-01-13 05:58:54 INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2026-01-13 05:58:54 INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2026-01-13 05:58:54 INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2026-01-13 05:58:54 INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\sdodda\IdeaProjects\MobileAutomationSample\testng.xml
+
+2026-01-13 05:58:54 INFO  Tests.HomeTest - Diff directory cleaned.
+2026-01-13 05:58:54 INFO  Tests.HomeTest - Deleted old allure-results folder.
+2026-01-13 05:58:54 INFO  Tests.HomeTest - Cleaned screenshots folder.
+2026-01-13 05:58:54 INFO  org.testng.internal.Utils - [Utils] DynamicGraphHelper.createDynamicGraph() took 8 ms.
+2026-01-13 05:58:55 INFO  Tests.HomeTest - Starting HomeTest using Java 21.0.4 with PID 2516 (C:\Users\sdodda\IdeaProjects\MobileAutomationSample\target\test-classes started by sdodda in C:\Users\sdodda\IdeaProjects\MobileAutomationSample)
+2026-01-13 05:58:55 INFO  Tests.HomeTest - No active profile set, falling back to 1 default profile: "default"
+2026-01-13 05:59:07 INFO  Tests.HomeTest - Started HomeTest in 12.588 seconds (process running for 17.247)
+2026-01-13 05:59:07 INFO  Tests.HomeTest - Driver stored in TestNG context successfully
+2026-01-13 05:59:09 INFO  Pages.HomePage - Search icon clicked.
+2026-01-13 05:59:11 INFO  Tests.HomeTest - Search icon clicked successfully.
+2026-01-13 05:59:14 INFO  Pages.HomePage - Search text entered: grand vitara top model 2025 details
+2026-01-13 05:59:16 INFO  Pages.HomePage - Search executed
+2026-01-13 05:59:17 INFO  Tests.HomeTest - Search text entered successfully.
+2026-01-13 05:59:17 INFO  Tests.HomeTest - Scrolled down successfully.
+2026-01-13 05:59:30 INFO  Tests.HomeTest - Scrolled down multiple times successfully.
+2026-01-13 05:59:36 INFO  Pages.HomePage - Navigated to Home.
+2026-01-13 05:59:38 INFO  Tests.HomeTest - Baseline exists: true
+2026-01-13 05:59:38 INFO  Tests.HomeTest - Baseline absolute path: C:\Users\sdodda\IdeaProjects\MobileAutomationSample\src\test\resources\baseline\homepage.png
+2026-01-13 05:59:38 INFO  Tests.HomeTest - Capturing actual screenshot...
+2026-01-13 05:59:39 INFO  Tests.HomeTest - Comparing baseline vs actual screenshot...
+2026-01-13 05:59:40 ERROR Tests.HomeTest - Visual mismatch detected. Diff saved at: src/test/resources/diff/homepage_diff.png
+2026-01-13 05:59:46 INFO  Pages.HomePage - Navigated to Shorts.
+2026-01-13 05:59:53 INFO  Pages.HomePage - Navigated to Subscriptions.
+2026-01-13 06:00:18 INFO  Pages.HomePage - Navigated to Profile.
+2026-01-13 06:00:25 INFO  Pages.HomePage - Navigated to Profile.
+2026-01-13 06:00:30 INFO  Tests.HomeTest - Toast message captured: Signed in as 
+Local guide Hyderabad (dsivaa95@gmail.com)
+2026-01-13 06:00:35 INFO  Pages.HomePage - App closed successfully.
+2026-01-13 06:00:42 INFO  Pages.HomePage - App launched successfully.
+2026-01-13 06:00:44 INFO  org.testng.internal.Utils - [TestNG] Time taken by org.testng.internal.ExitCodeListener@61f94cac: 0 ms
+2026-01-13 06:06:44 INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 13 ms.
+2026-01-13 06:06:44 INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 16 ms.
+2026-01-13 06:06:44 INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2026-01-13 06:06:44 INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2026-01-13 06:06:44 INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2026-01-13 06:06:44 INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2026-01-13 06:06:44 INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2026-01-13 06:06:44 INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2026-01-13 06:06:44 INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2026-01-13 06:06:44 INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 11 ms.
+2026-01-13 06:06:44 INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2026-01-13 06:06:44 INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 1 ms.
+2026-01-13 06:06:44 INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2026-01-13 06:06:44 INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2026-01-13 06:06:44 INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2026-01-13 06:06:44 INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2026-01-13 06:06:44 INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2026-01-13 06:06:44 INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 1 ms.
+2026-01-13 06:06:44 INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 1 ms.
+2026-01-13 06:06:44 INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2026-01-13 06:06:44 INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2026-01-13 06:06:44 INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2026-01-13 06:06:44 INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2026-01-13 06:06:44 INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2026-01-13 06:06:44 INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 2 ms.
+2026-01-13 06:06:44 INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2026-01-13 06:06:44 INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2026-01-13 06:06:44 INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2026-01-13 06:06:44 INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2026-01-13 06:06:44 INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2026-01-13 06:06:44 INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\sdodda\IdeaProjects\MobileAutomationSample\testng.xml
+
+2026-01-13 06:06:44 INFO  Tests.HomeTest - Diff directory cleaned.
+2026-01-13 06:06:44 INFO  Tests.HomeTest - Deleted old allure-results folder.
+2026-01-13 06:06:44 INFO  Tests.HomeTest - Cleaned screenshots folder.
+2026-01-13 06:06:44 INFO  org.testng.internal.Utils - [Utils] DynamicGraphHelper.createDynamicGraph() took 15 ms.
+2026-01-13 06:06:45 INFO  Tests.HomeTest - Starting HomeTest using Java 21.0.4 with PID 15616 (C:\Users\sdodda\IdeaProjects\MobileAutomationSample\target\test-classes started by sdodda in C:\Users\sdodda\IdeaProjects\MobileAutomationSample)
+2026-01-13 06:06:45 INFO  Tests.HomeTest - No active profile set, falling back to 1 default profile: "default"
+2026-01-13 06:06:58 INFO  Tests.HomeTest - Started HomeTest in 13.619 seconds (process running for 18.728)
+2026-01-13 06:06:58 INFO  Tests.HomeTest - Driver stored in TestNG context successfully
+2026-01-13 06:07:01 INFO  Pages.HomePage - Search icon clicked.
+2026-01-13 06:07:03 INFO  Tests.HomeTest - Search icon clicked successfully.
+2026-01-13 06:07:06 INFO  Pages.HomePage - Search text entered: grand vitara top model 2025 details
+2026-01-13 06:07:07 INFO  Pages.HomePage - Search executed
+2026-01-13 06:07:08 INFO  Tests.HomeTest - Search text entered successfully.
+2026-01-13 06:07:10 INFO  Tests.HomeTest - Scrolled down successfully.
+2026-01-13 06:07:21 INFO  Tests.HomeTest - Scrolled down multiple times successfully.
+2026-01-13 06:07:27 INFO  Pages.HomePage - Navigated to Home.
+2026-01-13 06:07:28 INFO  Tests.HomeTest - Baseline exists: true
+2026-01-13 06:07:28 INFO  Tests.HomeTest - Baseline absolute path: C:\Users\sdodda\IdeaProjects\MobileAutomationSample\src\test\resources\baseline\homepage.png
+2026-01-13 06:07:28 INFO  Tests.HomeTest - Capturing actual screenshot...
+2026-01-13 06:07:30 INFO  Tests.HomeTest - Comparing baseline vs actual screenshot...
+2026-01-13 06:07:31 ERROR Tests.HomeTest - Visual mismatch detected. Diff saved at: src/test/resources/diff/homepage_diff.png
+2026-01-13 06:07:37 INFO  Pages.HomePage - Navigated to Shorts.
+2026-01-13 06:07:44 INFO  Pages.HomePage - Navigated to Subscriptions.
+2026-01-13 06:08:07 INFO  Pages.HomePage - Navigated to Profile.
+2026-01-13 06:08:15 INFO  Pages.HomePage - Navigated to Profile.
+2026-01-13 06:08:18 INFO  Tests.HomeTest - Toast message captured: Signed in as 
+Local guide Hyderabad (dsivaa95@gmail.com)
+2026-01-13 06:08:24 INFO  Pages.HomePage - App closed successfully.
+2026-01-13 06:08:29 INFO  Pages.HomePage - App launched successfully.
+2026-01-13 06:08:31 INFO  org.testng.internal.Utils - [TestNG] Time taken by org.testng.internal.ExitCodeListener@30d970c4: 0 ms
+2026-01-13 12:16:40 INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 12 ms.
+2026-01-13 12:16:40 INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 15 ms.
+2026-01-13 12:16:40 INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2026-01-13 12:16:40 INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2026-01-13 12:16:40 INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2026-01-13 12:16:40 INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2026-01-13 12:16:40 INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2026-01-13 12:16:40 INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2026-01-13 12:16:40 INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2026-01-13 12:16:40 INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 9 ms.
+2026-01-13 12:16:40 INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2026-01-13 12:16:40 INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2026-01-13 12:16:40 INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2026-01-13 12:16:40 INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2026-01-13 12:16:40 INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2026-01-13 12:16:40 INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2026-01-13 12:16:40 INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2026-01-13 12:16:40 INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2026-01-13 12:16:40 INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2026-01-13 12:16:40 INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2026-01-13 12:16:40 INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2026-01-13 12:16:40 INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2026-01-13 12:16:40 INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2026-01-13 12:16:40 INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2026-01-13 12:16:40 INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 2 ms.
+2026-01-13 12:16:40 INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 1 ms.
+2026-01-13 12:16:40 INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2026-01-13 12:16:40 INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2026-01-13 12:16:40 INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2026-01-13 12:16:40 INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2026-01-13 12:16:40 INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\sdodda\IdeaProjects\MobileAutomationSample\testng.xml
+
+2026-01-13 12:16:40 INFO  Tests.HomeTest - Diff directory cleaned.
+2026-01-13 12:16:40 INFO  Tests.HomeTest - Deleted old allure-results folder.
+2026-01-13 12:16:40 INFO  Tests.HomeTest - Cleaned screenshots folder.
+2026-01-13 12:16:40 INFO  org.testng.internal.Utils - [Utils] DynamicGraphHelper.createDynamicGraph() took 9 ms.
+2026-01-13 12:16:41 INFO  Tests.HomeTest - Starting HomeTest using Java 21.0.4 with PID 4372 (C:\Users\sdodda\IdeaProjects\MobileAutomationSample\target\test-classes started by sdodda in C:\Users\sdodda\IdeaProjects\MobileAutomationSample)
+2026-01-13 12:16:41 INFO  Tests.HomeTest - No active profile set, falling back to 1 default profile: "default"
+2026-01-13 12:16:54 INFO  Tests.HomeTest - Started HomeTest in 14.319 seconds (process running for 19.224)
+2026-01-13 12:16:54 INFO  Tests.HomeTest - Driver stored in TestNG context successfully
+2026-01-13 12:17:03 INFO  Pages.HomePage - Search icon clicked.
+2026-01-13 12:17:04 INFO  Tests.HomeTest - Search icon clicked successfully.
+2026-01-13 12:17:13 INFO  Pages.HomePage - Search text entered: grand vitara top model 2025 details
+2026-01-13 12:17:14 INFO  Pages.HomePage - Search executed
+2026-01-13 12:17:15 INFO  Tests.HomeTest - Search text entered successfully.
+2026-01-13 12:17:17 INFO  Tests.HomeTest - Scrolled down successfully.
+2026-01-13 12:17:29 INFO  Tests.HomeTest - Scrolled down multiple times successfully.
+2026-01-13 12:17:36 INFO  Pages.HomePage - Navigated to Home.
+2026-01-13 12:17:37 INFO  Tests.HomeTest - Baseline exists: true
+2026-01-13 12:17:37 INFO  Tests.HomeTest - Baseline absolute path: C:\Users\sdodda\IdeaProjects\MobileAutomationSample\src\test\resources\baseline\homepage.png
+2026-01-13 12:17:37 INFO  Tests.HomeTest - Capturing actual screenshot...
+2026-01-13 12:17:38 INFO  Tests.HomeTest - Comparing baseline vs actual screenshot...
+2026-01-13 12:17:39 ERROR Tests.HomeTest - Visual mismatch detected. Diff saved at: src/test/resources/diff/homepage_diff.png
+2026-01-13 12:17:46 INFO  Pages.HomePage - Navigated to Shorts.
+2026-01-13 12:17:54 INFO  Pages.HomePage - Navigated to Subscriptions.
+2026-01-13 12:18:20 INFO  Pages.HomePage - Navigated to Profile.
+2026-01-13 12:18:29 INFO  Pages.HomePage - Navigated to Profile.
+2026-01-13 12:18:34 INFO  Tests.HomeTest - Toast message captured: Signed in as 
+Local guide Hyderabad (dsivaa95@gmail.com)
+2026-01-13 12:18:39 INFO  Pages.HomePage - App closed successfully.
+2026-01-13 12:18:45 INFO  Pages.HomePage - App launched successfully.
+2026-01-13 12:18:47 INFO  org.testng.internal.Utils - [TestNG] Time taken by org.testng.internal.ExitCodeListener@110ed523: 0 ms
