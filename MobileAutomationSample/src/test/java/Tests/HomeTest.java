@@ -304,6 +304,7 @@ public class HomeTest extends AbstractTestNGSpringContextTests {
         if (driver != null && driver.getSessionId() != null) {
             driver.quit();
             logger.info("Driver quit at suite end.");
+            logger.info("End of the suite");
         }
     }
 
