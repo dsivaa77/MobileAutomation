@@ -174,12 +174,12 @@ public class HomePage {
         if (driver != null) {
             driver.terminateApp("com.google.android.youtube");
             logger.info("App closed successfully.");
-            Thread.sleep(4000); // wait for 4 seconds
+           // Thread.sleep(4000); // wait for 4 seconds
         }
     }
 
     @Step("Relaunch YouTube App")
-    public void relaunchApp() throws InterruptedException {
+    public void launchApp() throws InterruptedException {
         if (driver != null) {
             driver.startActivity(new Activity("com.google.android.youtube", "com.google.android.youtube.HomeActivity"));
           //  driver.activateApp("com.google.android.youtube");

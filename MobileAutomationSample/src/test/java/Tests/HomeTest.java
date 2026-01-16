@@ -18,10 +18,13 @@ import org.testng.Assert;
 import org.testng.ITestContext;
 import org.testng.annotations.AfterSuite;
 import org.testng.annotations.BeforeSuite;
+
 import java.io.IOException;
+
 import org.apache.commons.io.FileUtils;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
+
 import java.awt.image.BufferedImage;
 import java.io.File;
 
@@ -204,7 +207,7 @@ public class HomeTest extends AbstractTestNGSpringContextTests {
     @Test(priority = 7, enabled = true)
     public void appActions() throws InterruptedException {
         homePage.closeApp();
-        homePage.relaunchApp();
+        homePage.launchApp();
         screenshotUtils.captureScreenshot("applaunched");
     }
 
@@ -223,13 +226,39 @@ public class HomeTest extends AbstractTestNGSpringContextTests {
         }
     }
 
+    //    @BeforeClass(alwaysRun = true)
+//    public void setUp(ITestContext context) {
+//        if (driver == null) {
+//            throw new RuntimeException("AndroidDriver is NULL – Spring injection failed");
+//        }
+//        context.setAttribute("driver", driver);
+//        logger.info("Driver stored in TestNG context successfully");
+//    }
     @BeforeClass(alwaysRun = true)
     public void setUp(ITestContext context) {
         if (driver == null) {
             throw new RuntimeException("AndroidDriver is NULL – Spring injection failed");
         }
+        // Store driver for Allure listeners
         context.setAttribute("driver", driver);
         logger.info("Driver stored in TestNG context successfully");
+
+        try {
+            logger.info("Preparing app for fresh launch (safe mode)");
+
+            String appPackage = "com.google.android.youtube";
+
+            // Step 1: Try terminating app (SAFE even if app not running)
+            driver.terminateApp(appPackage);
+            logger.info("App termination attempted (safe)");
+
+            // Step 2: Activate app (works if app was closed or backgrounded)
+            homePage.launchApp();
+
+        } catch (Exception e) {
+            logger.error("Failed to ensure clean app launch", e);
+            throw new RuntimeException("App launch handling failed", e);
+        }
     }
 
     @BeforeSuite

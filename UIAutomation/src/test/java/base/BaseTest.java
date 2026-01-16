@@ -3,7 +3,9 @@ package base;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import org.openqa.selenium.WebDriver;
+import org.testng.annotations.AfterClass;
 import org.testng.annotations.AfterMethod;
+import org.testng.annotations.BeforeClass;
 import org.testng.annotations.BeforeMethod;
 import utils.DriverFactory;
 
@@ -12,7 +14,7 @@ public class BaseTest {
     public WebDriver driver;
     protected Logger log = LogManager.getLogger(this.getClass());
 
-    @BeforeMethod
+    @BeforeClass
     public void setUp() {
         log.info("Initializing Chrome Driver");
         DriverFactory.initDriver();
@@ -23,7 +25,7 @@ public class BaseTest {
         driver.get("https://demoqa.com/");
     }
 
-    @AfterMethod
+    @AfterClass
     public void tearDown() {
         log.info("Closing browser");
         DriverFactory.quitDriver();
