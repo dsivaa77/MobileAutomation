@@ -30,6 +30,7 @@ public class MobileDriverConfig {
         options.setAppPackage("com.google.android.youtube");
         options.setAppActivity("com.google.android.youtube.HomeActivity");
         options.setNoReset(true);
+        options.setCapability("autoLaunch", false);
         options.setNewCommandTimeout(java.time.Duration.ofSeconds(300));
 
          return new AndroidDriver(new URL("http://127.0.0.1:4723"), options);
