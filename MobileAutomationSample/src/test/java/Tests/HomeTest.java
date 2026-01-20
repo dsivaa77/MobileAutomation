@@ -67,6 +67,7 @@ public class HomeTest extends AbstractTestNGSpringContextTests {
         homePage.scrollMultipleTimes(5);
         screenshotUtils.captureScreenshot("scrolldownmultipletimes");
         logger.info("Scrolled down multiple times successfully.");
+        logger.info("Scrolled down multiple times successfully.");
     }
 
     @Epic("YouTube Tests")
